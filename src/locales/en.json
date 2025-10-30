@@ -7,7 +7,7 @@
     "contact": "Contact"
   },
   "hero": {
-    "greeting": "Hi, I'm Alan Velázquez",
+    "greeting": "Hi, I'm",
     "paragraph": "Full Stack Developer || Frontend Developer",
     "cta": "First, I solve the problem. Then, I write the code."
   },
@@ -16,7 +16,7 @@
     "contact": "Contact"
   },
   "aboutMe": {
-    "title": "About Me",
+    "title": "Rendering My Story",
     "paragraph1": "I am a Full Stack developer with a strong Frontend focus. I’m passionate about creating elegant and functional interfaces, turning complex ideas into simple and effective digital solutions.",
     "paragraph2": "I mainly work with JavaScript and TypeScript, using React, Next.js, Node.js, and modern databases. I’m always learning new technologies and best practices to keep growing and building increasingly solid products."
   },

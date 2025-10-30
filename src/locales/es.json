@@ -7,7 +7,7 @@
     "contact": "Contacto"
   },
   "hero": {
-    "greeting": "Hola, soy Alan Velázquez",
+    "greeting": "Hola, soy",
     "paragraph": "Desarrollador Full Stack || Desarrollador Frontend",
     "cta": "Primero resuelvo el problema. Luego escribo el código."
   },
@@ -16,7 +16,7 @@
     "contact": "Contacto"
   },
   "aboutMe": {
-    "title": "Sobre mí",
+    "title": "Renderizando mi historia",
     "paragraph1": "Soy un desarrollador Full Stack con fuerte orientación al Frontend. Me apasiona crear interfaces elegantes y funcionales, transformando ideas complejas en soluciones digitales simples y efectivas.",
     "paragraph2": "Trabajo principalmente con JavaScript y TypeScript, usando React, Next.js, Node.js y bases de datos modernas. Siempre estoy aprendiendo nuevas tecnologías y mejores prácticas para seguir creciendo y crear productos cada vez más sólidos."
   },
