@@ -17,11 +17,28 @@
   },
   "aboutMe": {
     "title": "Renderizando mi historia",
-    "paragraph1": "Soy un desarrollador Full Stack con fuerte orientación al Frontend. Me apasiona crear interfaces elegantes y funcionales, transformando ideas complejas en soluciones digitales simples y efectivas.",
-    "paragraph2": "Trabajo principalmente con JavaScript y TypeScript, usando React, Next.js, Node.js y bases de datos modernas. Siempre estoy aprendiendo nuevas tecnologías y mejores prácticas para seguir creciendo y crear productos cada vez más sólidos."
+    "paragraph1": "Soy desarrollador Full Stack con enfoque en Frontend. Me gusta construir interfaces limpias y claras, que se vean bien y funcionen bien. Disfruto resolver problemas y encontrar la manera más simple de llevar una idea a la realidad.",
+    "paragraph2": "Trabajo con un stack centrado en JavaScript y TypeScript, junto con frameworks como React, Next.js y Node.js. También tengo experiencia con bases de datos modernas, y suelo incorporar nuevas tecnologías según las necesidades del proyecto o para seguir creciendo profesionalmente.",
+    "paragraph3": "Crear una página web es como construir un universo: empezás desde la nada, y línea por línea creás algo que otros pueden experimentar."
   },
   "skills": {
-    "title": "Habilidades"
+    "title": "Mi Stack Personal",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Base de Datos",
+    "tools": "Herramientas",
+    "soft": {
+      "title": "Habilidades Blandas",
+      "list": [
+        "Comunicación efectiva",
+        "Trabajo en equipo",
+        "Resolución de problemas",
+        "Adaptabilidad",
+        "Organización y gestión del tiempo",
+        "Aprendizaje continuo",
+        "Pensamiento crítico"
+      ]
+    }
   },
   "projects": {
     "title": "Proyectos Destacados"

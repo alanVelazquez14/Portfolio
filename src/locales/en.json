@@ -17,10 +17,27 @@
   },
   "aboutMe": {
     "title": "Rendering My Story",
-    "paragraph1": "I am a Full Stack developer with a strong Frontend focus. I’m passionate about creating elegant and functional interfaces, turning complex ideas into simple and effective digital solutions.",
-    "paragraph2": "I mainly work with JavaScript and TypeScript, using React, Next.js, Node.js, and modern databases. I’m always learning new technologies and best practices to keep growing and building increasingly solid products."
+    "paragraph1": "I am a Full Stack developer with a focus on Frontend. I like to build clean and clear interfaces that look good and work well. I enjoy solving problems and finding the simplest way to bring an idea to life.",
+    "paragraph2": "I work with a stack centered on JavaScript and TypeScript, along with frameworks such as React, Next.js, and Node.js. I also have experience with modern databases, and I tend to incorporate new technologies depending on the project's needs or to continue growing professionally.",
+    "paragraph3": "Creating a web page is like building a universe: you start from nothing, and line by line you create something that others can experience."
   },
-    "skills": {
-    "title": "Skills"
+  "skills": {
+    "title": "My Personal Stack",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "database": "Database",
+    "tools": "Tools",
+    "soft": {
+      "title": "Soft Skills",
+      "list": [
+        "Effective Communication",
+        "Teamwork",
+        "Problem Solving",
+        "Adaptability",
+        "Time Management",
+        "Continuous Learning",
+        "Critical Thinking"
+      ]
+    }
   }
 }
