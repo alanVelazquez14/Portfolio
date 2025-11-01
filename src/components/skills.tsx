@@ -61,9 +61,14 @@ export default function Skills() {
       id="skills"
       className="w-full mx-auto px-6 py-20 bg-[#070a0fef] shadow-xl shadow-black/30"
     >
-      <h2 className="text-4xl font-extrabold text-center text-white my-16 tracking-tighter">
-        {t("skills.title")}
-      </h2>
+      <div className="max-w-4xl mx-auto px-6 sm:px-4">
+        <h2 className="text-4xl md:text-5xl sm:text-3xl font-bold mb-4 text-center text-white my-16">
+          {t("skills.title")}
+        </h2>
+        <p className="text-lg md:text-xl sm:text-base text-gray-500 mt-16 sm:mt-12 text-center">
+          {t("skills.paragraph")}
+        </p>
+      </div>
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 max-w-full mx-auto mt-12">
           {skillCategories.map((category, index) => (

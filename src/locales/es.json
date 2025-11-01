@@ -23,6 +23,7 @@
   },
   "skills": {
     "title": "Mi Stack Personal",
+    "paragraph": "Mi stack representa el camino que recorrí aprendiendo y mejorando con cada línea de código. Cada herramienta que uso es parte de mi forma de crear, optimizar y llevar ideas a la realidad.",
     "frontend": "Frontend",
     "backend": "Backend",
     "database": "Base de Datos",
@@ -41,6 +42,18 @@
     }
   },
   "projects": {
-    "title": "Proyectos Destacados"
+    "title": "Creando soluciones reales",
+    "paragraph": "Creo que la tecnología tiene sentido cuando mejora algo real. Cada proyecto que desarrollo nace con esa idea: crear soluciones que conecten, simplifiquen y generen impacto.",
+    "title1": "HR SYSTEM",
+    "title2": "CODEXA - E-COMMERCE",
+    "title3": "CODEXA STUDIO",
+    "title4": "HOME BURGER BAR",
+    "description1": "Sistema de gestión de recursos humanos desarrollado para optimizar procesos internos, mejorar la comunicación y facilitar la administración del personal en empresas de diversos tamaños.",
+    "description2": "Plataforma de comercio electrónico diseñada para ofrecer una experiencia de compra intuitiva y segura, con funcionalidades avanzadas para la gestión de productos, pagos y envíos.",
+    "description3": "Sitio web corporativo para una agencia de desarrollo y diseño, destacando sus servicios, portafolio y facilitando el contacto con potenciales clientes.",
+    "description4": "Página web para un restaurante de hamburguesas artesanales, enfocada en mostrar su menú, ubicación y permitir reservas en línea.",
+    "code": "Ver código",
+    "demo": "Ver demo",
+    "paragraph2": "Esto es solo una muestra de lo que puedo crear. Si quieres explorar más proyectos y ver en qué estoy trabajando últimamente, ¡visita mi "
   }
 }

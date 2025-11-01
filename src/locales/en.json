@@ -23,6 +23,7 @@
   },
   "skills": {
     "title": "My Personal Stack",
+    "paragraph": "My stack represents the journey I've taken, learning and improving with every line of code. Each tool I use is part of my way of creating, optimizing, and bringing ideas to life.",
     "frontend": "Frontend",
     "backend": "Backend",
     "database": "Database",
@@ -39,5 +40,20 @@
         "Critical Thinking"
       ]
     }
+  },
+  "projects": {
+    "title": "Creating Real Solutions",
+    "paragraph": "I believe technology makes sense when it improves something real. Every project I develop is born with that idea: to create solutions that connect, simplify, and generate impact.",
+    "title1": "HR SYSTEM",
+    "title2": "CODEXA - E-COMMERCE",
+    "title3": "CODEXA STUDIO",
+    "title4": "HOME BURGER BAR",
+    "description1": "Human resources management system developed to optimize internal processes, improve communication, and facilitate personnel administration in companies of various sizes.",
+    "description2": "E-commerce platform designed to provide an intuitive and secure shopping experience, with advanced features for product management, payments, and shipping.",
+    "description3": "Corporate website for a development and design agency, showcasing its services, portfolio, and facilitating contact with potential clients.",
+    "description4": "Website for a gourmet burger restaurant, focused on displaying its menu, location, and allowing online reservations.",
+    "code": "View code",
+    "demo": "View demo",
+    "paragraph2": "This is just a sample of what I can create. If you want to explore more projects and see what I've been working on lately, visit my "
   }
 }
