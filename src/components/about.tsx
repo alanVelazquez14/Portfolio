@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 export default function About() {
   const { t } = useTranslation();
   return (
-    <section id="about" className="py-20 md:py-24 sm:py-16">
+    <section id="about" className="w-full mx-auto px-6 py-20 bg-[#070a0fef] shadow-xl shadow-black/30">
       <div className="max-w-4xl mx-auto px-6 sm:px-4">
         <h2 className="text-4xl md:text-5xl sm:text-3xl font-bold mb-4 text-center">
           {t("aboutMe.title")}

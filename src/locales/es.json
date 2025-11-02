@@ -55,5 +55,17 @@
     "code": "Ver código",
     "demo": "Ver demo",
     "paragraph2": "Esto es solo una muestra de lo que puedo crear. Si quieres explorar más proyectos y ver en qué estoy trabajando últimamente, ¡visita mi "
+  },
+  "experience": {
+    "title": "Mi Evolución como Dev",
+    "job1": "Desarrollador Full Stack",
+    "job2": "Soporte Técnico",
+    "job3": "Desarrollador Full Stack con orientación Frontend",
+    "description1": "Desarrollo full stack con JavaScript, React, Node.js, Express, PostgreSQL y MongoDB.",
+    "description2": "Atención al cliente, resolución de problemas técnicos y soporte en sistemas bancarios.",
+    "description3": "Bootcamp intensivo de 800 horas. Desarrollo full stack con orientación en frontend utilizando Next.js, React, Tailwind CSS, entre otras tecnologías.",
+    "certificate": "Ver certificado",
+    "cv": "Si querés conocer más sobre mi formación y experiencia, podés descargar mi "
+
   }
 }

@@ -55,5 +55,16 @@
     "code": "View code",
     "demo": "View demo",
     "paragraph2": "This is just a sample of what I can create. If you want to explore more projects and see what I've been working on lately, visit my "
+  },
+  "experience": {
+    "title": "My Journey as a Dev",
+    "job1": "Full Stack Developer",
+    "job2": "Technical Support",
+    "job3": "Full Stack Developer with Frontend Focus",
+    "description1": "Full stack development with JavaScript, React, Node.js, Express, PostgreSQL, and MongoDB.",
+    "description2": "Customer service, troubleshooting, and support in banking systems.",
+    "description3": "Intensive 800-hour bootcamp. Full stack development with a frontend focus using Next.js, React, Tailwind CSS, among other technologies.",
+    "certificate": "View certificate",
+    "cv": "If you want to know more about my education and experience, you can download my "
   }
 }
