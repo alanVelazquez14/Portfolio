@@ -66,6 +66,16 @@
     "description3": "Bootcamp intensivo de 800 horas. Desarrollo full stack con orientación en frontend utilizando Next.js, React, Tailwind CSS, entre otras tecnologías.",
     "certificate": "Ver certificado",
     "cv": "Si querés conocer más sobre mi formación y experiencia, podés descargar mi "
-
+  },
+  "contact":{
+    "title": "¡Hablemos!",
+    "title2": "Trabajemos juntos",
+    "paragraph": "El desarrollo web no solo trata de código, sino de personas y colaboración. Si pensás que podríamos crear algo juntos, no dudes en contactarme.",
+    "name": "Tu nombre",
+    "email": "Tu correo electrónico",
+    "message": "Tu mensaje",
+    "send": "Enviar mensaje",
+    "success": "¡Gracias por contactarme! Te responderé lo antes posible.",
+    "error": "Hubo un error al enviar tu mensaje. Por favor, intentá nuevamente."
   }
 }

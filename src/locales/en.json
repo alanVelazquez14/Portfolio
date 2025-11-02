@@ -66,5 +66,15 @@
     "description3": "Intensive 800-hour bootcamp. Full stack development with a frontend focus using Next.js, React, Tailwind CSS, among other technologies.",
     "certificate": "View certificate",
     "cv": "If you want to know more about my education and experience, you can download my "
+  },
+    "contact":{
+    "title": "Let's Talk!",
+    "paragraph": "Web development is not just about code, but about people and collaboration. If you think we could create something together, don't hesitate to reach out.",
+    "name": "Your Name",
+    "email": "Your Email",
+    "message": "Your Message",
+    "send": "Send Message",
+    "success": "Thank you for reaching out! I'll get back to you as soon as possible.",
+    "error": "There was an error sending your message. Please try again later."
   }
 }
