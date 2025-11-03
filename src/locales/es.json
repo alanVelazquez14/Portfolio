@@ -80,5 +80,9 @@
     "cv": "Descargar CV",
     "toastSuccess": "Mensaje enviado correctamente",
     "toastError": "Error al enviar el mensaje"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "madeBy": "Hecho por Alan Velazquez"
   }
 }

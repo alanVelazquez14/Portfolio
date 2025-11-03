@@ -1,6 +1,7 @@
 import About from "./components/about";
 import Contact from "./components/contact";
 import Experience from "./components/experience";
+import Footer from "./components/footer";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 import Projects from "./components/projects";
@@ -20,6 +21,7 @@ function App() {
       <Projects />
       <Experience />
       <Contact />
+      <Footer />
     </>
   );
 }

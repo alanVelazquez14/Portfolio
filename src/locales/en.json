@@ -79,5 +79,9 @@
     "cv": "Download CV",
     "toastSuccess": "Message sent successfully",
     "toastError": "Error sending message"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "madeBy": "Made by Alan Velazquez"
   }
 }
