@@ -4,9 +4,17 @@ import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
 
 export default function Navbar() {
-  const [darkMode, setDarkMode] = useState(true);
+  // const [darkMode, setDarkMode] = useState(true);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { t, i18n } = useTranslation();
+
+  // useEffect(() => {
+  //   if (darkMode) {
+  //     document.documentElement.classList.add("dark");
+  //   } else {
+  //     document.documentElement.classList.remove("dark");
+  //   }
+  // }, [darkMode]);
 
   const toggleLanguage = () => {
     const newLang = i18n.language === "es" ? "en" : "es";
@@ -73,12 +81,12 @@ export default function Navbar() {
               {i18n.language.toUpperCase()}
               <Globe size={15} />
             </button>
-            <button
+            {/* <button
               onClick={() => setDarkMode(!darkMode)}
               className="text-muted-foreground hover:text-white hover:bg-secondary transition bg-transparent p-1 rounded-md"
             >
               {darkMode ? <Sun size={15} /> : <Moon size={15} />}
-            </button>
+            </button> */}
           </div>
         </div>
 
@@ -86,16 +94,17 @@ export default function Navbar() {
         <div className="flex md:hidden items-center gap-3">
           <button
             onClick={toggleLanguage}
-            className="text-gray-400 hover:text-white hover:bg-secondary transition bg-transparent p-1 rounded-md flex items-center"
+            className="text-gray-400 hover:text-white hover:bg-secondary transition bg-transparent p-1 rounded-md flex items-center gap-1"
           >
+            {i18n.language.toUpperCase()}
             <Globe size={20} />
           </button>
-          <button
+          {/* <button
             onClick={() => setDarkMode(!darkMode)}
             className="text-muted-foreground hover:text-white hover:bg-secondary transition bg-transparent p-1 rounded-md"
           >
             {darkMode ? <Sun size={20} /> : <Moon size={20} />}
-          </button>
+          </button> */}
           <button
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="text-white p-1 rounded-md hover:bg-secondary transition"
