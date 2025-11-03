@@ -67,7 +67,7 @@
     "certificate": "View certificate",
     "cv": "If you want to know more about my education and experience, you can download my "
   },
-    "contact":{
+  "contact": {
     "title": "Let's Talk!",
     "paragraph": "Web development is not just about code, but about people and collaboration. If you think we could create something together, don't hesitate to reach out.",
     "name": "Your Name",
@@ -75,6 +75,9 @@
     "message": "Your Message",
     "send": "Send Message",
     "success": "Thank you for reaching out! I'll get back to you as soon as possible.",
-    "error": "There was an error sending your message. Please try again later."
+    "error": "There was an error sending your message. Please try again later.",
+    "cv": "Download CV",
+    "toastSuccess": "Message sent successfully",
+    "toastError": "Error sending message"
   }
 }

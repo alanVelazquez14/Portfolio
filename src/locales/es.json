@@ -76,6 +76,9 @@
     "message": "Tu mensaje",
     "send": "Enviar mensaje",
     "success": "¡Gracias por contactarme! Te responderé lo antes posible.",
-    "error": "Hubo un error al enviar tu mensaje. Por favor, intentá nuevamente."
+    "error": "Hubo un error al enviar tu mensaje. Por favor, intentá nuevamente.",
+    "cv": "Descargar CV",
+    "toastSuccess": "Mensaje enviado correctamente",
+    "toastError": "Error al enviar el mensaje"
   }
 }

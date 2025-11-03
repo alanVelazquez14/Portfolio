@@ -1,5 +1,6 @@
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
+import { FaWhatsapp } from "react-icons/fa";
 
 function Particles() {
   return (
@@ -111,6 +112,11 @@ export default function Hero() {
             href="mailto:velazquez.alan14@gmail.com"
             label="velazquez.alan14@gmail.com"
             icon={<Mail className="h-6 w-6 hover:text-red-500" />}
+          />
+          <SocialIcon
+            href="https://wa.me/5492664774564"
+            label="WhatsApp"
+            icon={<FaWhatsapp className="h-6 w-6 hover:text-green-500" />}
           />
         </div>
       </div>
