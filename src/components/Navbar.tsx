@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Moon, Sun, Globe, Menu, X } from "lucide-react";
+import { Globe, Menu, X } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link } from "react-scroll";
 
