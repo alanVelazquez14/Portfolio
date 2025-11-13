@@ -79,7 +79,7 @@ export default function Experience() {
         <div className="max-w-4xl mx-auto px-6 sm:px-4">
           <p className="text-lg md:text-xl sm:text-base text-gray-500 mt-16 sm:mt-12 text-center">
             {t("experience.cv")} <a
-              href="/ALAN VELAZQUEZ CV - front.docx"
+              href="/ALAN VELAZQUEZ CV - front.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:text-primary/80 font-semibold transition-colors"
