@@ -73,7 +73,7 @@ export default function Contact() {
           {/* Botón Descargar CV */}
           <div className="pt-4 border-t border-border">
             <a
-              href="/ALAN VELAZQUEZ CV - front.pdf"
+              href="/ALAN VELAZQUEZ CV.pdf"
               download
               className={`flex items-center justify-center w-full max-w-xs px-6 py-3 font-semibold rounded-lg bg-primary text-white hover:opacity-90 transition-opacity`}
             >
