@@ -1,12 +1,5 @@
 import { useTranslation } from "react-i18next";
-import {
-  Code2,
-  Database,
-  Wrench,
-  Server,
-  Users,
-  type LucideIcon,
-} from "lucide-react";
+import { Code2, Wrench, Server, Users, type LucideIcon } from "lucide-react";
 
 interface SkillCategory {
   titleKey: string;
@@ -19,13 +12,19 @@ export default function Skills() {
 
   const skillCategories: SkillCategory[] = [
     {
+      titleKey: "skills.languages",
+      icon: Code2,
+      skills: ["JavaScript", "TypeScript", "Python"],
+    },
+    {
       titleKey: "skills.frontend",
       icon: Code2,
       skills: [
         "React",
         "Next.js",
-        "TypeScript",
-        "JavaScript",
+        "HTML 5",
+        "CSS 3",
+        "Styled Components",
         "Tailwind CSS",
         "HTML5",
         "CSS3",
@@ -37,17 +36,33 @@ export default function Skills() {
     {
       titleKey: "skills.backend",
       icon: Server,
-      skills: ["Node.js", "Express", "RESTful APIs", "JWT / Auth"],
-    },
-    {
-      titleKey: "skills.database",
-      icon: Database,
-      skills: ["MongoDB", "PostgreSQL", "Mongoose", "SQL"],
+      skills: [
+        "Node.js",
+        "Express",
+        "RESTful APIs",
+        "JWT / Auth",
+        "WEB Sockets",
+        "TypeORM",
+        "PostgreSQL",
+        "MySQL",
+        "SQL",
+        "MongoDB",
+        "Mongoose",
+      ],
     },
     {
       titleKey: "skills.tools",
       icon: Wrench,
-      skills: ["Git", "GitHub", "VS Code", "Postman", "Figma"],
+      skills: [
+        "Git",
+        "GitHub",
+        "VS Code",
+        "Postman",
+        "Figma",
+        "Vercel",
+        "Railway",
+        "Render",
+      ],
     },
     {
       titleKey: "skills.soft.title",

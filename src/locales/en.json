@@ -24,8 +24,9 @@
   "skills": {
     "title": "My Personal Stack",
     "paragraph": "My stack represents the journey I've taken, learning and improving with every line of code. Each tool I use is part of my way of creating, optimizing, and bringing ideas to life.",
+    "languages": "Languages",
     "frontend": "Frontend",
-    "backend": "Backend",
+    "backend": "Backend & APIs",
     "database": "Database",
     "tools": "Tools",
     "soft": {

@@ -1,6 +1,36 @@
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { FaWhatsapp } from "react-icons/fa";
+import { IoLogoPython, IoLogoJavascript } from "react-icons/io5";
+import { BiLogoTypescript, BiLogoReact } from "react-icons/bi";
+import {
+  SiNextdotjs,
+  SiTailwindcss,
+  SiNodedotjs,
+  SiMongodb,
+} from "react-icons/si";
+import type { JSX } from "react/jsx-runtime";
+
+const techIcons: Record<string, JSX.Element> = {
+  JavaScript: <IoLogoJavascript />,
+  TypeScript: <BiLogoTypescript />,
+  Python: <IoLogoPython />,
+  React: <BiLogoReact />,
+  "Next.js": <SiNextdotjs />,
+  Tailwind: <SiTailwindcss />,
+  "Node.js": <SiNodedotjs />,
+  MongoDB: <SiMongodb />,
+};
+
+const iconColors: Record<string, string> = {
+  JavaScript: "group-hover:text-[#F7DF1E]",
+  TypeScript: "group-hover:text-[#3178C6]",
+  Python: "group-hover:text-[#3776AB]",
+  React: "group-hover:text-[#61DAFB]",
+  "Next.js": "group-hover:text-black",
+  Tailwind: "group-hover:text-[#38BDF8]",
+  MongoDB: "group-hover:text-[#47A248]",
+};
 
 function Particles() {
   return (
@@ -64,16 +94,27 @@ export default function Hero() {
           {[
             "JavaScript",
             "TypeScript",
+            "Python",
             "React",
             "Next.js",
             "Tailwind",
-            "Node.js",
             "MongoDB",
           ].map((tech) => (
             <span
               key={tech}
-              className="px-2 sm:px-3 py-1 rounded-full bg-secondary border border-border text-xs sm:text-sm"
+              className="group flex items-center gap-1 px-2 sm:px-3 py-1 rounded-full 
+                 bg-secondary border border-border 
+                 text-xs sm:text-sm transition-all duration-300 cursor-pointer"
             >
+              <span
+                className={`
+          text-lg transition-all duration-300
+          ${iconColors[tech]} 
+          group-hover:scale-125
+        `}
+              >
+                {techIcons[tech]}
+              </span>
               {tech}
             </span>
           ))}
