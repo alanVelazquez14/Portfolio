@@ -62,9 +62,11 @@
     "job1": "Full Stack Developer",
     "job2": "Technical Support",
     "job3": "Full Stack Developer with Frontend Focus",
+    "job4": "Software Developer",
     "description1": "Full stack development with JavaScript, React, Node.js, Express, PostgreSQL, and MongoDB.",
     "description2": "Customer service, troubleshooting, and support in banking systems.",
     "description3": "Intensive 800-hour bootcamp. Full stack development with a frontend focus using Next.js, React, Tailwind CSS, among other technologies.",
+    "description4": "Development, maintenance, and optimization of the web platform, working on both frontend and backend. I implement performance, UX/UI, and functionality improvements, applying best practices and agile methodologies.",
     "certificate": "View certificate",
     "cv": "If you want to know more about my education and experience, you can download my "
   },

@@ -3,6 +3,13 @@ import { useTranslation } from "react-i18next";
 
 const experienceItems = [
   {
+    type: "work",
+    title: "experience.job4",
+    organization: "Dexpega",
+    period: "2025 - Present",
+    description: "experience.description4",
+  },
+  {
     type: "education",
     title: "experience.job3",
     organization: "Soy Henry",

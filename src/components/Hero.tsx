@@ -8,6 +8,7 @@ import {
   SiTailwindcss,
   SiNodedotjs,
   SiMongodb,
+  SiWordpress
 } from "react-icons/si";
 import type { JSX } from "react/jsx-runtime";
 
@@ -20,6 +21,7 @@ const techIcons: Record<string, JSX.Element> = {
   Tailwind: <SiTailwindcss />,
   "Node.js": <SiNodedotjs />,
   MongoDB: <SiMongodb />,
+  WordPress: <SiWordpress />,
 };
 
 const iconColors: Record<string, string> = {
@@ -30,6 +32,7 @@ const iconColors: Record<string, string> = {
   "Next.js": "group-hover:text-black",
   Tailwind: "group-hover:text-[#38BDF8]",
   MongoDB: "group-hover:text-[#47A248]",
+  WordPress: "group-hover:text-[#21759B]",
 };
 
 function Particles() {
@@ -99,6 +102,7 @@ export default function Hero() {
             "Next.js",
             "Tailwind",
             "MongoDB",
+            "WordPress",
           ].map((tech) => (
             <span
               key={tech}
