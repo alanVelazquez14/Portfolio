@@ -39,6 +39,7 @@ export default function Skills() {
       skills: [
         "Node.js",
         "Express",
+        "NestJS",
         "RESTful APIs",
         "JWT / Auth",
         "WEB Sockets",
