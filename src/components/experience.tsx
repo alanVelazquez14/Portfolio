@@ -2,6 +2,39 @@ import { Briefcase, FileText, GraduationCap } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const experienceItems = [
+  // EDUCACIÓN
+  {
+    type: "education",
+    title: "experience.job6",
+    organization: "Universidad Nacional de San Luis",
+    period: "experience.period6",
+    description: "experience.description6",
+  },
+  {
+    type: "education",
+    title: "experience.job3",
+    organization: "Soy Henry",
+    period: "2024 - 2025",
+    description: "experience.description3",
+    certificate: "/SoyHenry.pdf",
+  },
+  {
+    type: "education",
+    title: "experience.job1",
+    organization: "Nucba",
+    period: "2023",
+    description: "experience.description1",
+    certificate: "/Certificado_Coding_Bootcamp_Full_Stack.pdf",
+  },
+
+  // EXPERIENCIA LABORAL
+  {
+    type: "work",
+    title: "experience.job7",
+    organization: "experience.empresa7",
+    period: "experience.period7",
+    description: "experience.description7",
+  },
   {
     type: "work",
     title: "experience.job4",
@@ -17,35 +50,12 @@ const experienceItems = [
     description: "experience.description5",
   },
   {
-    type: "education",
-    title: "experience.job3",
-    organization: "Soy Henry",
-    period: "2024 - 2025",
-    description: "experience.description3",
-    certificate: "/SoyHenry.pdf",
-  },
-  {
     type: "work",
     title: "experience.job2",
     organization: "Banco Santander",
     period: "2021 - 2024",
     description: "experience.description2",
   },
-  {
-    type: "education",
-    title: "experience.job1",
-    organization: "Nucba",
-    period: "2023",
-    description: "experience.description1",
-    certificate: "/Certificado_Coding_Bootcamp_Full_Stack.pdf",
-  },
-  {
-    type: "education",
-    title: "experience.job6",
-    organization: "Universidad Nacional de San Luis",
-    period: "experience.period6",
-    description: "experience.description6",
-  }
 ];
 
 export default function Experience() {
