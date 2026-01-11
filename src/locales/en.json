@@ -8,7 +8,7 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "paragraph": "Full Stack Developer || Frontend Developer",
+    "paragraph": "Software Developer || Frontend Developer",
     "cta": "First, I solve the problem. Then, I write the code."
   },
   "buttons": {
@@ -68,6 +68,7 @@
     "job4": "Frontend Developer",
     "job5": "Backend Developer",
     "job6": "Computer Engineering",
+    "job7": "Software Developer",
     "description1": "Full stack development with JavaScript, React, Node.js, Express, PostgreSQL, and MongoDB.",
     "description2": "Customer service, troubleshooting, and support in banking systems.",
     "description3": "Intensive 800-hour bootcamp. Full stack development with a frontend focus using Next.js, React, Tailwind CSS, among other technologies.",

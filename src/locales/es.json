@@ -8,7 +8,7 @@
   },
   "hero": {
     "greeting": "Hola, soy",
-    "paragraph": "Desarrollador Full Stack || Desarrollador Frontend",
+    "paragraph": "Desarrollador de Software || Desarrollador Frontend",
     "cta": "Primero resuelvo el problema. Luego escribo el código."
   },
   "buttons": {
@@ -68,7 +68,7 @@
     "job4": "Desarrollador Frontend",
     "job5": "Desarrollador Backend",
     "job6": "Ingeniería Informática",
-    "job7": "Desarrollador Full Stack",
+    "job7": "Desarrollador de Software",
     "description1": "Desarrollo full stack con JavaScript, React, Node.js, Express, PostgreSQL y MongoDB.",
     "description2": "Atención al cliente, resolución de problemas técnicos y soporte en sistemas bancarios.",
     "description3": "Bootcamp intensivo de 800 horas. Desarrollo full stack con orientación en frontend utilizando Next.js, React, Tailwind CSS, entre otras tecnologías.",
