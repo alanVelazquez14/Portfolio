@@ -55,6 +55,7 @@ export default function Skills() {
       titleKey: "skills.tools",
       icon: Wrench,
       skills: [
+        "Docker",
         "Git",
         "GitHub",
         "VS Code",

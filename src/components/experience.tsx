@@ -149,7 +149,7 @@ export default function Experience() {
         <p className="text-lg md:text-xl sm:text-base text-gray-500 mt-20 sm:mt-16 text-center">
           {t("experience.cv")}{" "}
           <a
-            href="/ALAN VELAZQUEZ CV.pdf"
+            href="/ALAN VELAZQUEZ CV- full.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary hover:text-primary/80 font-semibold transition-colors"
