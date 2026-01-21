@@ -9,7 +9,14 @@ export default function Projects() {
       img: "/project1.png",
       title: "projects.title1",
       description: "projects.description1",
-      skills: ["TypeScript", "Next.js", "Tailwind CSS", "Clerk", "Node.js", "Stripe"],
+      skills: [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Clerk",
+        "Node.js",
+        "Stripe",
+      ],
       code: "https://github.com/HRSYSTEM-PROJECT/front",
       demo: "https://front-git-main-hr-systems-projects.vercel.app/",
     },
@@ -17,15 +24,30 @@ export default function Projects() {
       img: "/project2.png",
       title: "projects.title2",
       description: "projects.description2",
-      skills: ["TypeScript", "Next.js", "Tailwind CSS", "Express", "MongoDB"],
-      code: "https://github.com/alanVelazquez14/Codexa",
-      demo: "#",
+      skills: [
+        "TypeScript",
+        "Next.js",
+        "Tailwind CSS",
+        "Nest.js",
+        "TypeORM",
+        "Express",
+        "MongoDB",
+        "JWT",
+      ],
+      code: "https://github.com/alanVelazquez14/front-ringmotos",
+      demo: "https://ring-motos.vercel.app/login",
     },
     {
       img: "/project3.png",
       title: "projects.title3",
       description: "projects.description3",
-      skills: ["JavaScript", "React", "Styled Components", "Node.js", "MongoDB"],
+      skills: [
+        "JavaScript",
+        "React",
+        "Styled Components",
+        "Node.js",
+        "MongoDB",
+      ],
       code: "https://github.com/alanVelazquez14/CodexaStudio",
       demo: "https://codexa-studio.vercel.app/",
     },
@@ -33,7 +55,14 @@ export default function Projects() {
       img: "/project4.png",
       title: "projects.title4",
       description: "projects.description4",
-      skills: ["React", "Node.js", "Express", "MongoDB", "Redux", "Styled Components"],
+      skills: [
+        "React",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Redux",
+        "Styled Components",
+      ],
       code: "https://github.com/alanVelazquez14/Landin-page-React",
       demo: "https://landin-page-react.vercel.app/home",
     },
@@ -103,7 +132,14 @@ export default function Projects() {
       </div>
       <div className="max-w-4xl mx-auto px-6 sm:px-4">
         <p className="text-lg md:text-xl sm:text-base text-gray-500 mt-16 sm:mt-12 text-center">
-          {t("projects.paragraph2")} <a href="https://github.com/alanVelazquez14" target="_blank" className="text-primary">GitHub<span className="text-gray-500">!</span></a>
+          {t("projects.paragraph2")}{" "}
+          <a
+            href="https://github.com/alanVelazquez14"
+            target="_blank"
+            className="text-primary"
+          >
+            GitHub<span className="text-gray-500">!</span>
+          </a>
         </p>
       </div>
     </section>
