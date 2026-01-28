@@ -30,24 +30,24 @@ const experienceItems = [
   // EXPERIENCIA LABORAL
   {
     type: "work",
-    title: "experience.job7",
-    organization: "experience.empresa7",
-    period: "experience.period7",
-    description: "experience.description7",
+    title: "experience.job5",
+    organization: "SwaplyAr",
+    period: "experience.period5",
+    description: "experience.description5",
   },
   {
     type: "work",
     title: "experience.job4",
     organization: "Dexpega",
-    period: "experience.period4",
+    period: "2025 - 2026",
     description: "experience.description4",
   },
   {
     type: "work",
-    title: "experience.job5",
-    organization: "SwaplyAr",
-    period: "experience.period5",
-    description: "experience.description5",
+    title: "experience.job7",
+    organization: "experience.empresa7",
+    period: "2023 - 2025",
+    description: "experience.description7",
   },
   {
     type: "work",
@@ -62,12 +62,10 @@ export default function Experience() {
   const { t } = useTranslation();
 
   const educationItems = experienceItems.filter(
-    (item) => item.type === "education"
+    (item) => item.type === "education",
   );
 
-  const workItems = experienceItems.filter(
-    (item) => item.type === "work"
-  );
+  const workItems = experienceItems.filter((item) => item.type === "work");
 
   const renderItem = (exp: any, index: number) => (
     <div
@@ -149,7 +147,7 @@ export default function Experience() {
         <p className="text-lg md:text-xl sm:text-base text-gray-500 mt-20 sm:mt-16 text-center">
           {t("experience.cv")}{" "}
           <a
-            href="/ALAN VELAZQUEZ CV- full.pdf"
+            href="/Curriculum_Vitae_Desarrollador_Full_Stack_Alan_Velazquez.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-primary hover:text-primary/80 font-semibold transition-colors"
