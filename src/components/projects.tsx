@@ -22,7 +22,7 @@ export default function Projects() {
     },
     {
       img: "/project2.png",
-      title: "projects.title2",
+      title: "GESTIÓNPRO",
       description: "projects.description2",
       skills: [
         "TypeScript",
