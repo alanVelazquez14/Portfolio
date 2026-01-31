@@ -35,7 +35,7 @@ export default function Projects() {
         "JWT",
       ],
       code: "https://github.com/alanVelazquez14/front-ringmotos",
-      demo: "https://ring-motos.vercel.app/login",
+      demo: "https://ring-motos.vercel.app/",
     },
     {
       img: "/project3.png",
