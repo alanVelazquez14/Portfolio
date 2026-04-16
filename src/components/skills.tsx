@@ -1,10 +1,18 @@
 import { useTranslation } from "react-i18next";
-import { Code2, Wrench, Server, Users, type LucideIcon } from "lucide-react";
+import {
+  Users,
+  Terminal,
+  Smartphone,
+  Database,
+  Cloud,
+  Sparkles,
+} from "lucide-react";
 
 interface SkillCategory {
   titleKey: string;
-  icon: LucideIcon;
+  icon: any;
   skills: string[];
+  size: "small" | "large";
 }
 
 export default function Skills() {
@@ -13,106 +21,121 @@ export default function Skills() {
   const skillCategories: SkillCategory[] = [
     {
       titleKey: "skills.languages",
-      icon: Code2,
+      icon: Terminal,
       skills: ["JavaScript", "TypeScript", "Python"],
+      size: "small",
     },
     {
       titleKey: "skills.frontend",
-      icon: Code2,
+      icon: Smartphone, // Cambiado a Smartphone por el peso de React Native
       skills: [
         "React",
         "Next.js",
-        "HTML 5",
-        "CSS 3",
-        "Styled Components",
+        "React Native",
         "Tailwind CSS",
-        "HTML5",
-        "CSS3",
         "Redux",
-        "Responsive Design",
-        "Jest",
+        "Expo",
       ],
+      size: "large",
     },
     {
       titleKey: "skills.backend",
-      icon: Server,
+      icon: Database,
       skills: [
         "Node.js",
-        "Express",
         "NestJS",
-        "RESTful APIs",
-        "JWT / Auth",
-        "WEB Sockets",
-        "TypeORM",
+        "Prisma",
+        "Supabase",
         "PostgreSQL",
-        "MySQL",
-        "SQL",
         "MongoDB",
-        "Mongoose",
       ],
+      size: "large",
     },
     {
-      titleKey: "skills.tools",
-      icon: Wrench,
-      skills: [
-        "Docker",
-        "Git",
-        "GitHub",
-        "VS Code",
-        "Postman",
-        "Figma",
-        "Vercel",
-        "Railway",
-        "Render",
-        "WordPress",
-      ],
+      titleKey: "skills.ai",
+      icon: Sparkles,
+      skills: ["Integración de IA", "OpenAI API", "Prompt Engineering"],
+      size: "small",
+    },
+    {
+      titleKey: "skills.infra",
+      icon: Cloud,
+      skills: ["Render", "Vercel", "Railway", "Docker", "CI/CD"],
+      size: "small",
     },
     {
       titleKey: "skills.soft.title",
       icon: Users,
-      skills: t("skills.soft.list", { returnObjects: true }) as string[],
+      skills: (
+        t("skills.soft.list", { returnObjects: true }) as string[]
+      ).slice(0, 6),
+      size: "small",
     },
   ];
 
   return (
     <section
       id="skills"
-      className="w-full mx-auto px-6 py-20 bg-[#070a0fef] shadow-xl shadow-black/30"
+      className="relative w-full py-14 bg-[#090812] overflow-hidden"
     >
-      <div className="max-w-4xl mx-auto px-6 sm:px-4">
-        <h2 className="text-4xl md:text-5xl sm:text-3xl font-bold mb-4 text-center text-white my-16">
-          {t("skills.title")}
-        </h2>
-        <p className="text-lg md:text-xl sm:text-base text-gray-500 mt-16 sm:mt-12 text-center">
-          {t("skills.paragraph")}
-        </p>
-      </div>
-      <div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 max-w-full mx-auto mt-12">
+      {/* Luces de fondo bordó */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#800020]/5 blur-[160px] rounded-full pointer-events-none" />
+
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
+        <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+          <div className="max-w-2xl text-left">
+            <h2 className="text-5xl md:text-6xl font-black tracking-tighter text-white mb-6">
+              Mi <span className="text-[#800020]">Stack</span> Tecnológico
+            </h2>
+            <p className="text-gray-400 text-lg leading-relaxed">
+              {t("skills.paragraph")}
+            </p>
+          </div>
+          <div className="hidden md:block text-right">
+            <span className="text-xs font-mono text-[#e63946] uppercase tracking-[0.3em]">
+              Versión 2026.04
+            </span>
+          </div>
+        </div>
+
+        {/* Bento Grid Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-12 gap-4 auto-rows-[180px]">
           {skillCategories.map((category, index) => (
             <div
               key={index}
-              className="group p-8 rounded-xl bg-card border border-border transition-all duration-500 hover:border-primary hover:shadow-2xl hover:shadow-primary/20 hover:scale-[1.02] hover:bg-card/90"
+              className={`
+                group relative overflow-hidden rounded-[32px] p-8 border border-white/5 bg-white/[0.02] backdrop-blur-md
+                transition-all duration-500 hover:border-[#800020]/40 hover:bg-white/[0.04]
+                ${category.size === "large" ? "md:col-span-3 lg:col-span-4 row-span-2" : "md:col-span-3 lg:col-span-4 row-span-1"}
+                ${index === 4 ? "lg:col-span-8" : ""} 
+              `}
             >
-              <div className="flex items-center gap-4 mb-5">
-                <div className="p-3 rounded-lg text-primary bg-primary/10 group-hover:text-white group-hover:bg-primary transition-colors duration-300 group-hover:rotate-6">
-                  <category.icon className="h-6 w-6" />
-                </div>
-                <h3 className="text-lg font-bold text-foreground">
-                  {t(category.titleKey)}
-                </h3>
+              {/* Decoración de fondo de la card */}
+              <div className="absolute -right-4 -top-4 text-white/[0.02] group-hover:text-[#800020]/10 transition-colors">
+                <category.icon size={120} />
               </div>
-              <ul className="space-y-3">
-                {category.skills.map((skill) => (
-                  <li
-                    key={skill}
-                    className="text-sm text-muted-foreground flex items-center group-hover:text-foreground transition-colors"
-                  >
-                    <span className="w-2 h-2 rounded-full bg-primary mr-3 opacity-70 group-hover:opacity-100 transition-opacity"></span>
-                    {skill}
-                  </li>
-                ))}
-              </ul>
+
+              <div className="relative z-10 h-full flex flex-col">
+                <div className="flex items-center gap-4 mb-auto">
+                  <div className="p-2.5 rounded-xl bg-[#800020]/10 text-[#e63946] border border-[#800020]/20 group-hover:scale-110 transition-transform">
+                    <category.icon size={20} />
+                  </div>
+                  <h3 className="text-lg font-bold text-white tracking-tight">
+                    {t(category.titleKey)}
+                  </h3>
+                </div>
+
+                <div className="flex flex-wrap gap-2 mt-4">
+                  {category.skills.map((skill) => (
+                    <span
+                      key={skill}
+                      className="px-3 py-1 text-xs font-medium bg-white/5 border border-white/10 rounded-full text-gray-400 group-hover:text-gray-200 group-hover:border-[#800020]/30 transition-all"
+                    >
+                      {skill}
+                    </span>
+                  ))}
+                </div>
+              </div>
             </div>
           ))}
         </div>

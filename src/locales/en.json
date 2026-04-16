@@ -25,37 +25,38 @@
     "title": "My Personal Stack",
     "paragraph": "My stack represents the journey I've taken, learning and improving with every line of code. Each tool I use is part of my way of creating, optimizing, and bringing ideas to life.",
     "languages": "Languages",
-    "frontend": "Frontend",
-    "backend": "Backend & APIs",
-    "database": "Database",
-    "tools": "Tools",
+    "frontend": "Frontend & Mobile",
+    "backend": "Backend & Data",
+    "infra": "Infrastructure & Cloud",
+    "ai": "AI & Machine Learning",
     "soft": {
       "title": "Soft Skills",
       "list": [
         "Effective Communication",
         "Teamwork",
         "Problem Solving",
-        "Adaptability",
-        "Time Management",
-        "Continuous Learning",
-        "Critical Thinking"
+        "Adaptability"
       ]
     }
   },
-  "projects": {
-    "title": "Creating Real Solutions",
-    "paragraph": "I believe technology makes sense when it improves something real. Every project I develop is born with that idea: to create solutions that connect, simplify, and generate impact.",
+"projects": {
+    "title": "Real Solutions",
+    "paragraph": "Technology with purpose. Each project is born to connect, simplify, and generate a tangible impact in the real world.",
+    "title_depurapp": "DEPURAPP",
+    "title_tiko": "TIKO SOLUCIONES",
     "title1": "HR SYSTEM",
-    "title2": "RING MOTOS",
+    "title2": "GESTIÓNPRO",
     "title3": "CODEXA STUDIO",
-    "title4": "HOME BURGER BAR",
-    "description1": "Human resources management system developed to optimize internal processes, improve communication, and facilitate personnel administration in companies of various sizes.",
-    "description2": "Full stack management system designed to simplify sales administration, centralize key business information, and improve decision-making, adaptable to multiple industries.",
-    "description3": "Corporate website for a development and design agency, showcasing its services, portfolio, and facilitating contact with potential clients.",
-    "description4": "Website for a gourmet burger restaurant, focused on displaying its menu, location, and allowing online reservations.",
+    "title4": "HOME BURGER",
+    "description_depurapp": "A strategic tool that optimizes job searches through diagnostic metrics and honest feedback for candidates.",
+    "description_tiko": "Home service system connecting users with emergency technicians.",
+    "description1": "Comprehensive HR management, optimizing communication and administration.",
+    "description2": "Administrative system for sales and stock control.",
+    "description3": "Design agencies, focused on conversion and digital services.",
+    "description4": "Digital experience for the food industry with interactive menus and reservation systems.",
     "code": "View code",
     "demo": "View demo",
-    "paragraph2": "This is just a sample of what I can create. If you want to explore more projects and see what I've been working on lately, visit my "
+    "paragraph2": "This is just a sample of my work. To explore more projects and my current developments, visit my "
   },
   "experience": {
     "title": "My Journey as a Dev",

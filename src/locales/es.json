@@ -17,45 +17,47 @@
   },
   "aboutMe": {
     "title": "Renderizando Mi Historia",
-    "paragraph1": "Llegué al mundo del desarrollo después de haber trabajado en otras áreas, y desde entonces descubrí que programar me da la libertad de crear cosas desde cero. Siempre me gustó la tecnología, solo me faltaba el empujón para meterme de lleno.",
-    "paragraph2": "Disfruto pasar horas programando, aprendiendo y resolviendo problemas. Aprendí que los errores son parte del proceso: cada bug que resolví me enseñó a ser un mejor programador. Cuando algo no me sale, no paro hasta hacerlo funcionar —y me encanta esa sensación cuando finalmente todo encaja. Creo que esa mentalidad es la que me impulsa a seguir creciendo y mejorar en cada proyecto.",
-    "paragraph3": "Crear una página web es como construir un universo: empezás desde la nada, y línea por línea creás algo que otros pueden disfrutar."
+    "subtitle": "De la curiosidad técnica a la arquitectura de soluciones reales.",
+    "paragraph1": "Tras recorrer otros caminos profesionales, descubrí en el desarrollo la libertad de crear desde cero. Hoy, esa pasión se traduce en soluciones robustas como Tiko Soluciones o DepurApp.",
+    "paragraph2": "Mi motor es la resolución de problemas. Entiendo los errores como aprendizaje y no me detengo hasta que cada pieza del sistema encaja con precisión y eficiencia.",
+    "paragraph3": "Crear software es construir un universo: desde la nada, línea por línea, diseño herramientas que transforman la realidad de los usuarios."
   },
   "skills": {
     "title": "Mi Stack Personal",
     "paragraph": "Mi stack representa el camino que recorrí aprendiendo y mejorando con cada línea de código. Cada herramienta que uso es parte de mi forma de crear, optimizar y llevar ideas a la realidad.",
     "languages": "Lenguajes",
-    "frontend": "Frontend",
-    "backend": "Backend & APIs",
-    "database": "Base de Datos",
-    "tools": "Herramientas",
+    "frontend": "Frontend & Mobile",
+    "backend": "Backend & Data",
+    "infra": "Infraestructura & Cloud",
+    "ai": "IA & Innovación",
     "soft": {
       "title": "Habilidades Blandas",
       "list": [
         "Comunicación efectiva",
         "Trabajo en equipo",
         "Resolución de problemas",
-        "Adaptabilidad",
-        "Organización y gestión del tiempo",
-        "Aprendizaje continuo",
-        "Pensamiento crítico"
+        "Adaptabilidad"
       ]
     }
   },
   "projects": {
-    "title": "Creando soluciones reales",
-    "paragraph": "Creo que la tecnología tiene sentido cuando mejora algo real. Cada proyecto que desarrollo nace con esa idea: crear soluciones que conecten, simplifiquen y generen impacto.",
+    "title": "Soluciones Reales",
+    "paragraph": "Tecnología con propósito. Cada proyecto nace para conectar, simplificar y generar un impacto tangible en el mundo real.",
+    "title_depurapp": "DEPURAPP",
+    "title_tiko": "TIKO SOLUCIONES",
     "title1": "HR SYSTEM",
-    "title2": "RING MOTOS",
+    "title2": "GESTIÓNPRO",
     "title3": "CODEXA STUDIO",
-    "title4": "HOME BURGER BAR",
-    "description1": "Sistema de gestión multitenant de recursos humanos desarrollado para optimizar procesos internos, mejorar la comunicación y facilitar la administración del personal en empresas de diversos tamaños.",
-    "description2": "Sistema de gestión full stack pensada para simplificar la administración de ventas, centralizar la información clave del negocio y mejorar la toma de decisiones, adaptable a múltiples industrias.",
-    "description3": "Sitio web corporativo para una agencia de desarrollo y diseño, destacando sus servicios, portafolio y facilitando el contacto con potenciales clientes.",
-    "description4": "Página web para un restaurante de hamburguesas artesanales, enfocada en mostrar su menú, ubicación y permitir reservas en línea.",
+    "title4": "HOME BURGER",
+    "description_depurapp": "Herramienta estratégica que optimiza la búsqueda laboral mediante métricas diagnósticas y feedback honesto para candidatos.",
+    "description_tiko": "Sistema de servicios para el hogar, conectando usuarios con técnicos de emergencia.",
+    "description1": "Gestión integral de RR.HH., optimizando la comunicación y administración.",
+    "description2": "Sistema administrativo para el control de ventas y stock.",
+    "description3": "Agencias de diseño, enfocada en conversión y servicios digitales.",
+    "description4": "Experiencia digital para gastronomía con menú interactivo y sistema de reservas.",
     "code": "Ver código",
     "demo": "Ver demo",
-    "paragraph2": "Esto es solo una muestra de lo que puedo crear. Si quieres explorar más proyectos y ver en qué estoy trabajando últimamente, ¡visita mi "
+    "paragraph2": "Esto es solo una muestra de mi trabajo. Para ver más proyectos y mis desarrollos actuales, visita mi "
   },
   "experience": {
     "title": "Mi Evolución como Dev",
