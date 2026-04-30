@@ -23,7 +23,7 @@ export default function Projects() {
       featured: true,
       isFounder: true,
       code: "https://github.com/alanVelazquez14/tiko-soluciones",
-      demo: "https://tikosoluciones.com/",
+      demo: "https://www.tikosoluciones.com/",
     },
     {
       img: "/project1.png",
