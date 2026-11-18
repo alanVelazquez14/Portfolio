@@ -52,8 +52,8 @@ export default function About() {
                 
                 <AboutStat 
                   icon={<Code2 className="text-[#e63946]" />}
-                  title="Full Stack Developer"
-                  desc="Especializado en el ecosistema TS/JS"
+                  title="Software Developer"
+                  desc="Apasionado por la tecnología y el desarrollo de software"
                 />
                 
                 <AboutStat 

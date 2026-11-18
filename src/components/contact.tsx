@@ -109,7 +109,7 @@ export default function Contact() {
                 },
                 {
                   icon: <FaWhatsapp size={20} />,
-                  link: "https://wa.me/5492664774564",
+                  link: "https://wa.me/5492664183710",
                   color: "hover:text-green-400",
                 },
               ].map((social, i) => (

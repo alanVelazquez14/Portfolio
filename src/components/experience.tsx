@@ -30,6 +30,20 @@ const experienceItems = [
   // EXPERIENCIA LABORAL
   {
     type: "work",
+    title: "experience.job8",
+    organization: "Control 24/7",
+    period: "experience.period8",
+    description: "experience.description8",
+  },
+  {
+    type: "work",
+    title: "experience.job9",
+    organization: "Tiko Soluciones",
+    period: "04/2026 - Actualidad",
+    description: "experience.description9",
+  },
+  {
+    type: "work",
     title: "experience.job5",
     organization: "SwaplyAr",
     period: "experience.period5",
@@ -139,13 +153,15 @@ export default function Experience() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-30">
           <div className="space-y-12">
             <h3 className="text-xs font-black text-gray-600 uppercase tracking-[0.5em] mb-12 flex items-center gap-4">
               Experiencia Laboral
               <span className="h-[1px] flex-1 bg-white/5"></span>
             </h3>
-            <div className="space-y-2">{workItems.map(renderItem)}</div>
+            <div className="experience-scroll max-h-[650px] overflow-y-auto pr-2 space-y-1">
+              {workItems.map(renderItem)}
+            </div>
           </div>
 
           {/* Columna Derecha: Educación */}

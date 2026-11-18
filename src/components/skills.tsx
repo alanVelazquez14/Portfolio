@@ -1,11 +1,11 @@
 import { useTranslation } from "react-i18next";
 import {
-  Users,
   Terminal,
   Smartphone,
   Database,
   Cloud,
   Sparkles,
+  Cctv,
 } from "lucide-react";
 
 interface SkillCategory {
@@ -27,7 +27,7 @@ export default function Skills() {
     },
     {
       titleKey: "skills.frontend",
-      icon: Smartphone, // Cambiado a Smartphone por el peso de React Native
+      icon: Smartphone,
       skills: [
         "React",
         "Next.js",
@@ -54,23 +54,35 @@ export default function Skills() {
     {
       titleKey: "skills.ai",
       icon: Sparkles,
-      skills: ["Integración de IA", "OpenAI API", "Prompt Engineering"],
+      skills: ["Open AI Codex", "Claude Code", "Gemini API"],
       size: "small",
     },
     {
       titleKey: "skills.infra",
       icon: Cloud,
-      skills: ["Render", "Vercel", "Railway", "Docker", "CI/CD"],
+      skills: [
+        "Redes y conectividad",
+        "Routers y Servidores",
+        "Vercel",
+        "Railway",
+        "Docker",
+        "CI/CD",
+      ],
       size: "small",
     },
     {
-      titleKey: "skills.soft.title",
-      icon: Users,
-      skills: (
-        t("skills.soft.list", { returnObjects: true }) as string[]
-      ).slice(0, 6),
+      titleKey: "skills.monitoring",
+      icon: Cctv,
+      skills: [
+        "SoftGuard",
+        "iVMS-4200",
+        "Smart PSS",
+        "CCTV",
+        "DVR / NVR",
+        "Comunicadores",
+      ],
       size: "small",
-    },
+    }
   ];
 
   return (

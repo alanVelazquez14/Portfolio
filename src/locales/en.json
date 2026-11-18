@@ -8,7 +8,7 @@
   },
   "hero": {
     "greeting": "Hi, I'm",
-    "paragraph": "Software Developer || Frontend Developer",
+    "paragraph": "Software Developer | Technical Lead | IT Infrastructure",
     "cta": "First, I solve the problem. Then, I write the code."
   },
   "buttons": {
@@ -29,6 +29,7 @@
     "backend": "Backend & Data",
     "infra": "Infrastructure & Cloud",
     "ai": "AI & Machine Learning",
+    "monitoring": "Monitoring & Security",
     "soft": {
       "title": "Soft Skills",
       "list": [
@@ -39,7 +40,7 @@
       ]
     }
   },
-"projects": {
+  "projects": {
     "title": "Real Solutions",
     "paragraph": "Technology with purpose. Each project is born to connect, simplify, and generate a tangible impact in the real world.",
     "title_depurapp": "DEPURAPP",
@@ -70,6 +71,12 @@
     "job5": "Full Stack Developer",
     "job6": "Computer Engineering",
     "job7": "Software Developer",
+    "job8": "IT Support & Infrastructure | Software Development Lead",
+    "period8": "November 2026 - Present",
+    "description8": "Management of IT infrastructure, networks, servers, and electronic security systems. Diagnosis and resolution of technical incidents. Leadership of software development initiatives, planning of new products, and process automation.",
+    "job9": "Founder & Full Stack Developer",
+    "period9": "April 2026 - Present",
+    "description9": "Founded and developed a digital home services platform. Designed the Full Stack architecture and implemented geolocation, APIs, dashboards, and real-time communication. Contributed to product decisions and technology planning.",
     "description1": "Full stack development with JavaScript, React, Node.js, Express, PostgreSQL, and MongoDB.",
     "description2": "Customer service, troubleshooting, and support in banking systems.",
     "description3": "Intensive 800-hour bootcamp. Full stack development with a frontend focus using Next.js, React, Tailwind CSS, among other technologies.",

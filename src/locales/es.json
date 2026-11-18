@@ -8,7 +8,7 @@
   },
   "hero": {
     "greeting": "Hola, soy",
-    "paragraph": "Desarrollador de Software || Desarrollador Frontend",
+    "paragraph": "Desarrollador de Software | Líder técnico | Infraestructura IT",
     "cta": "Primero resuelvo el problema. Luego escribo el código."
   },
   "buttons": {
@@ -30,6 +30,7 @@
     "backend": "Backend & Data",
     "infra": "Infraestructura & Cloud",
     "ai": "IA & Innovación",
+    "monitoring": "Monitoreo y Seguridad",
     "soft": {
       "title": "Habilidades Blandas",
       "list": [
@@ -71,6 +72,12 @@
     "job5": "Desarrollador Full Stack",
     "job6": "Ingeniería Informática",
     "job7": "Desarrollador de Software",
+    "job8": "Soporte Técnico e Infraestructura IT | Líder de Desarrollo de Software",
+    "period8": "Noviembre 2026 - Actualidad",
+    "description8": "Gestión de infraestructura IT, redes, servidores y sistemas de seguridad electrónica. Diagnóstico y resolución de incidentes tecnológicos. Liderazgo de iniciativas de desarrollo de software, planificación de nuevos productos y automatización de procesos.",
+    "job9": "Fundador y Full Stack Developer",
+    "period9": "Abril 2026 - Actualidad",
+    "description9": "Fundé y desarrollé una plataforma digital de servicios para el hogar. Diseño de arquitectura Full Stack, implementación de geolocalización, APIs, dashboards y comunicación en tiempo real. Participación en decisiones de producto y planificación tecnológica.",
     "description1": "Desarrollo full stack con JavaScript, React, Node.js, Express, PostgreSQL y MongoDB.",
     "description2": "Atención al cliente, resolución de problemas técnicos y soporte en sistemas bancarios.",
     "description3": "Bootcamp intensivo de 800 horas. Desarrollo full stack con orientación en frontend utilizando Next.js, React, Tailwind CSS, entre otras tecnologías.",

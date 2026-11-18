@@ -169,7 +169,7 @@ export default function Hero() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-[#800020]"></span>
             </span>
-            Full Stack Developer
+            Software Developer
           </div>
 
           <h1 className="text-6xl md:text-8xl font-black tracking-tighter leading-[0.85] text-white">
@@ -180,7 +180,8 @@ export default function Hero() {
           </h1>
 
           <p className="text-lg md:text-xl text-gray-400 max-w-lg font-light leading-relaxed">
-            {t("hero.paragraph")} —{" "}
+            {t("hero.paragraph")} {" "}
+            <br />
             <span className="text-gray-200 italic font-medium">
               {t("hero.cta")}
             </span>
@@ -213,7 +214,7 @@ export default function Hero() {
                 label="LinkedIn"
               />
               <SocialIcon
-                href="https://wa.me/5492664774564"
+                href="https://wa.me/5492664183710"
                 icon={<FaWhatsapp size={22} />}
                 label="WhatsApp"
               />
